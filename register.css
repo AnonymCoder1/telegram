@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;1,400&family=Ubuntu&display=swap');
+
+body{
+    /* background-color: rgb(24, 24, 34); */
+    content: 'Light Mode';
+}
+
+h2{
+    color: black;
+}
+div{
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid black; */
+    width: auto;
+    height: auto;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+ol{
+    text-align: left;
+    margin-left: 40%;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+}
+
+a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    margin-top: 10px;
+    color: blue;
+    text-decoration: none;
+    transition: 0.7s;
+    width: 16%;
+    margin-left: 41.5%;
+    border-radius: 15px;
+}
+
+a:hover{
+    background: black;
+    color: chartreuse;
+}
+
+button{
+    margin-left: 88%;
+    width: 80px;
+    height: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+    font-family: 'Poppins', sans-serif;
+}
+
+button:active{
+    color: black;
+    background-color: cyan;
+    border: 2px dotted red; 
+}

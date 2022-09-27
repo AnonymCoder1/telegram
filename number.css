@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    text-align: center;
+}
+
+
+p{
+    font-family: 'Poppins', sans-serif;
+}
+
+#codes{
+    width: 161px;
+    height: 36px;
+    font-size: large;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.nomerla{
+    margin-top: 25px;
+}
+
+#code{
+    width: 45px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1.3em;
+}
+
+.nomer{
+    width: 210px;
+    height: 30px;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-size: 1.3em;
+}
+
+.knopka{
+    margin-top: 15px;
+    width: 115px;
+    height: 47px;
+    border: none;
+    color: black;
+    background-color: grey;
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    border-radius: 5px;
+}
+
+select{
+    width: 128px;
+    height: 35px;
+    border-radius: 10px;
+    border: 2px solid black;
+    font-size: 1.3em;
+}

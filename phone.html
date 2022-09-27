@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTER</title>
+    <link rel="stylesheet" href="number.css">
+</head>
+<body>
+    <div class="container">
+        <h1>YOUR PHONE</h1>
+        <div class="photo">
+            <img src="./underline.PNG" alt="pashol">
+            <p>Please confirm your country code and <br> enter your phone number</p>
+        </div>
+        <select onchange="select()">
+            <option value="+998">UZB +998</option>
+            <option value="+1">USA +1</option>
+            <option value="+44">UK +44</option>
+            <option value="+7">RUS +7</option>
+        </select>
+        <div class="nomerla">
+            <input type="text" readonly id="code">
+            <input type="number" class="nomer">
+        </div>
+        <a href="./chat/chat.html"><button class="knopka" onclick="btn()">NEXT</button></a>
+    </div>
+    <script src="molcha.js"></script>
+</body>
+</html>
